@@ -62,7 +62,7 @@ namespace WitherLordsTest.Enemies
                 direction.Normalize();
 
                 //Phase 1, necron, but maxor. give him a light gray tint in Maxor phase.
-                if(AITimer <=900 && AITimer % 45==0 && NPC.life > NPC.lifeMax / 4)
+                if(AITimer <=900 && AITimer % 45==0 && NPC.life > NPC.lifeMax * 0.75)
                 {
                     //attack normally at 0.75/s for 15 seconds
                 }
