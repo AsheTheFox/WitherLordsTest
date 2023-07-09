@@ -103,30 +103,27 @@ namespace WitherLordsTest.Enemies
                     //frenzy attack for 10 seconds, slightly faster than Storm's.
                 }
                 //Phase 3, necron, but goldor. give him a dark gray tint and red eyes in Goldor Phase.
-                else if(AITimer <1200 && AITimer%60==0 && NPC.life < NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
+                else if(AITimer <1200 && AITimer%60==0 && NPC.life > NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
                 {
                     //phase 2 goldor attack speed and movement speed. give him 9999 contact damage like Goldor.
                 }
-
-                else if(1200 < AITimer && AITimer <= 1500 && NPC.life < NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
+                else if(1200 < AITimer && AITimer <= 1500 && NPC.life > NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
                 {
                     //spawn 8 Wither Guards. you're getting screwed now boi.
                 }
-
-                else if(1200 < AITimer && AITimer <= 1500 && AITimer % 12 == 0 && NPC.life < NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
+                else if(1200 < AITimer && AITimer <= 1500 && AITimer % 12 == 0 && NPC.life > NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
                 {
                     //fire skulls very fast whilst spawning Wither Guards
                 }
-                else if(1500 < AITimer && AITImer <= 2700 && AITimer%60==0 && NPC.life < NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
+                else if(1500 < AITimer && AITImer <= 2700 && AITimer%60==0 && NPC.life > NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
                 {
                     //repeat attack 1.
                 }
-                else if(2700 < AITimer && AITimer <= 3000 && NPC.life < NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
+                else if(2700 < AITimer && AITimer <= 3000 && NPC.life > NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
                 {
                     //spawn 8 Wither Guards.
                 }
-
-                else if(2700 < AITimer && AITimer <= 3000 && AITimer % 12 == 0 && NPC.life < NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
+                else if(2700 < AITimer && AITimer <= 3000 && AITimer % 12 == 0 && NPC.life > NPC.lifeMax / 4 && NPC.life <= NPC.lifeMax / 2)
                 {
                     //owey skull go shooty shooty and i get hurty hurty
                 }
