@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Cole\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\WitherLordsTest\\WitherLordsTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Cole\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\WitherLordsTest\\WitherLordsTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cole\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\WitherLordsTest\\WitherLordsTest.csproj",
+        "projectName": "WitherLordsTest",
+        "projectPath": "C:\\Users\\Cole\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\WitherLordsTest\\WitherLordsTest.csproj",
+        "packagesPath": "C:\\Users\\Cole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cole\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\WitherLordsTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "dependencies": {
+            "tModLoader.CodeAssist": {
+              "target": "Package",
+              "version": "[0.1.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+displayName = The Wither Lords
+author = AsheTheFox22
+version = 0.1

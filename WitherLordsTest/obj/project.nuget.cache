@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "p3PWdSWyU8kyhtwblzaHTlw1TJxAICcvgQa+6TCVNXw1DfCfjXq0fLpJEhOvKxcTiKGGYtqfZdR2U6zrujsTYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cole\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\WitherLordsTest\\WitherLordsTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cole\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
